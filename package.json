@@ -1,0 +1,29 @@
+{
+    "name": "node-decorator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx babel-node index.js",
+        "serve": "nodemon index.js --exec babel-node"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AaronKwong929/node-decorator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AaronKwong929/node-decorator/issues"
+    },
+    "homepage": "https://github.com/AaronKwong929/node-decorator#readme",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/node": "^7.8.7",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-decorators": "^7.8.3",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/register": "^7.9.0"
+    }
+}

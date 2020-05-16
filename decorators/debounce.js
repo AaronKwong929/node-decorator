@@ -6,7 +6,7 @@ const debounce = (time) => {
             descriptor.value = function (...args) {
                 if (timer) clearTimeout(timer);
                 timer = setTimeout(() => {
-                    fn.apply(this, args);
+                    func.apply(this, args);
                 }, wait);
             };
         }

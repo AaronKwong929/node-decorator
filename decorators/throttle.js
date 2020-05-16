@@ -6,7 +6,7 @@ const throttle = (time) => {
             descriptor.value = function (...args) {
                 const now = new Date();
                 if (now - prev > wait) {
-                    fn.apply(this, args);
+                    func.apply(this, args);
                     prev = newDate();
                 }
             };
